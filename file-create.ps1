@@ -5,7 +5,7 @@ param(
     $Path
 )
 
-if (-Not $Path -eq '') {
+if (! $Path -eq '') {
     New-Item $Path
     Write-Host "File $Path is created"
 }else {
