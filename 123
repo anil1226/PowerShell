@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Tukui Community</title>
+	<!-- Metadata -->
+	<meta name="description" content="The home of Tukui and ElvUI."/>
+	<meta charset="UTF-8"/>
+	<meta name="keywords" content="Addon, Addons, Blizzard, Community, Computer, Elv, Elv ui, ElvUI, Games, Gaming, Lua, Lua programming, Minimalist, Minimalistic, Minimalistic ui, MMO, MMORPG, MMORPG games, MMORPG ui, Mod, Mods, Source code, Tukz, Tukui, Tuk ui, UI, User interface, User interface addons, Warcraft, World of Warcraft, WoW, WoW addons, WoW interface, WoW mods, WoW ui"/>
+	<meta name="author" content="Tukz"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+	<!-- Apple devices -->
+	<link rel="apple-touch-icon" href="/images/apple/apple-touch-icon.png"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/apple/apple-touch-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/apple/apple-touch-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple/apple-touch-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/apple/apple-touch-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/apple/apple-touch-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/apple/apple-touch-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple/apple-touch-icon-180x180.png"/>
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="/css/style.css"/>
+	<link rel="stylesheet" href="/css/style-responsive.css"/>
+	<link rel="stylesheet" href="/css/animate.min.css"/>
+	<link rel="stylesheet" href="/css/vertical-rhythm.min.css"/>
+	<link rel="stylesheet" href="/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="/css/magnific-popup.css"/>
+	<link rel="stylesheet" href="/css/rev-slider.css"/>
+	<link rel="stylesheet" href="/rs-plugin/css/settings.css" media="screen"/>
+	<link rel="stylesheet" href="/css/ravaio-lightbox.css"/>
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"/>
+</head>
+
+<body class="appear-animate">
+	<!-- Navigation panel -->
+	<nav class="main-nav dark stick-fixed">
+		<div class="full-wrapper relative clearfix">
+			<!-- Logo -->
+			<div class="nav-logo-wrap local-scroll">
+				<a href="/" class="logo">
+					<img src="/images/logo.png" alt=""/>
+				</a>
+			</div>
+			<div class="mobile-nav">
+				<i class="fas fa-bars"></i>
+			</div>
+			<!-- Main Menu -->
+			<div class="inner-nav desktop-nav">
+				<ul class="clearlist">
+					<!-- Item With Sub -->
+					<li>
+						<a href="#" class="fas fa-cube mn-has-sub">&nbsp;<span class="font-menu">Addons</span>&nbsp;<i class="fas fa-angle-down"></i></a>
+						<!-- Sub -->
+						<ul class="mn-sub">
+							<li>
+								<a href="#" class="fas fa-archive mn-has-sub">&nbsp;<span class="font-menu">Tukui</span>&nbsp;<i class="fas fa-angle-right right"></i></a>
+								<ul class="mn-sub">
+									<li>
+										<a href="/tukui" class="fas fa-download">&nbsp;<span class="font-menu">Download</span></a>
+									</li>
+									<li>
+										<a href="https://github.com/tukui-org/Tukui/issues" class="fas fa-bug">&nbsp;<span class="font-menu">Tickets</span></a>
+									</li>
+									<li>
+										<a href="https://github.com/tukui-org/Tukui" class="fab fa-github">&nbsp;<span class="font-menu">Git</span></a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="fas fa-archive mn-has-sub">&nbsp;<span class="font-menu">ElvUI</span>&nbsp;<i class="fas fa-angle-right right"></i></a>
+								<ul class="mn-sub">
+									<li>
+										<a href="/elvui" class="fas fa-download">&nbsp;<span class="font-menu">Download</span></a>
+									</li>
+									<li>
+										<a href="https://github.com/tukui-org/ElvUI/issues" class="fas fa-bug">&nbsp;<span class="font-menu">Tickets</span></a>
+									</li>
+									<li>
+										<a href="https://github.com/tukui-org/ElvUI" class="fab fa-github">&nbsp;<span class="font-menu">Git</span></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<!-- End Sub -->
+					</li>
+					<!-- End Item With Sub -->
+					<!-- Item With Sub -->
+					<li>
+						<a href="#" class="fas fa-download mn-has-sub">&nbsp;<span class="font-menu">Clients</span>&nbsp;<i class="fas fa-angle-down"></i></a>
+						<!-- Sub -->
+						<ul class="mn-sub">
+							<li>
+								<a href="/client" class="fas fa-archive">&nbsp;<span class="font-menu">Tukui Client</span></a>
+							</li>
+							<li>
+								<a href="https://wowup.io/" target="_blank" class="fas fa-archive">&nbsp;<span class="font-menu">WowUp</span></a>
+							</li>
+							<li>
+								<a href="https://github.com/AcidWeb/CurseBreaker" target="_blank" class="fas fa-archive">&nbsp;<span class="font-menu">CurseBreaker</span></a>
+							</li>
+						</ul>
+						<!-- End Sub -->
+					</li>
+					<!-- End Item With Sub -->
+					<!-- Item With Sub -->
+					<li>
+						<a href="https://discord.tukui.org" target="_blank" class="fab fa-discord">&nbsp;<span class="font-menu">Discord</span></a>
+					</li>
+					<!-- End Item With Sub -->
+					<!-- Item With Sub -->
+					<li>
+						<a href="https://github.com/tukui-org/ElvUI/wiki" target="_blank" class="fas fa-book">&nbsp;<span class="font-menu">Wiki</span></a>
+					</li>
+					<!-- End Item With Sub -->
+					<!-- Item With Sub -->
+					<li>
+						<a href="/support" class="fab fa-paypal">&nbsp;<span class="font-menu">Support Us</span></a>
+					</li>
+					<!-- End Item With Sub -->
+					<!-- Divider -->
+					<li><a>&nbsp;</a></li>
+					<!-- End Divider -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Page Loader -->
+	<div class="page-loader">
+		<div class="loader">Loading...</div>
+	</div>
+	<!-- End Page Loader -->
+	<!-- Page Wrap -->
+	<div class="page" id="top">
+		<!-- Home Section -->
+		<div class="home-section fullscreen-container" id="home">
+			<div class="fullscreenbanner bg-dark">
+				<ul>
+					<!-- Slide Item -->
+					<li data-transition="fade" data-slotamount="7" data-title="Intro Slide">
+						<img src="/images/full-width-images/header-bg-1.jpg" alt=""/>
+						<div class="hidden-xs caption customin customout hs-line-8 no-transp font-alt" data-x="center"
+							data-hoffset="0" data-y="center" data-voffset="-100"
+							data-customin="x:-50;y:-300;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+							data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+							data-speed="800" data-start="800" data-startslide="1" data-easing="Power4.easeOut"
+							data-endspeed="500" data-endeasing="Power4.easeIn">
+							WELCOME TO THE TUKUI COMMUNITY
+						</div>
+						<div class="hidden-xs caption customin customout hs-line-14 font-alt" data-x="center"
+							data-hoffset="0" data-y="center" data-voffset="-14"
+							data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+							data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+							data-speed="800" data-start="1200" data-startslide="1" data-easing="Power4.easeOut"
+							data-endspeed="500" data-endeasing="Power4.easeIn">
+							DOWNLOAD LINKS
+						</div>
+						<div class="caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="83"
+							data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+							data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+							data-speed="800" data-start="1500" data-startslide="1" data-easing="Power4.easeOut"
+							data-endspeed="500" data-endeasing="Power4.easeIn">
+							<div class="local-scroll">
+								<a href="/tukui" class="btn btn-mod btn-border-w btn-small btn-round">Download Tukui</a>
+								<span>&nbsp;</span>
+								<a href="/elvui" class="btn btn-mod btn-border-w btn-small btn-round">Download ElvUI</a>
+							</div>
+						</div>
+					</li>
+					<!-- End Slide Item -->
+				</ul>
+				<div class="tp-bannertimer tp-bottom"></div>
+			</div>
+		</div>
+	</div>
+	<!-- Section -->
+	<section class="page-section bg-gray hidden-xs">
+		<div class="relative container">
+			<!-- Features Grid -->
+			<div class="benefits-grid">
+				<!-- Features Item -->
+				<div class="benefit-item">
+					<div class="benefit-icon">
+						<i class="far fa-paper-plane"></i>
+					</div>
+					<h3 class="benefit-title font-alt">Ideas</h3>
+				</div>
+				<!-- End Features Item -->
+				<!-- Features Item -->
+				<div class="benefit-item">
+					<div class="benefit-icon">
+						<i class="fas fa-cogs"></i>
+					</div>
+					<h3 class="benefit-title font-alt">Discussion</h3>
+				</div>
+				<!-- End Features Item -->
+				<!-- Features Item -->
+				<div class="benefit-item">
+					<div class="benefit-icon">
+						<i class="fab fa-tencent-weibo"></i>
+					</div>
+					<h3 class="benefit-title font-alt">Design</h3>
+				</div>
+				<!-- End Features Item -->
+				<!-- Features Item -->
+				<div class="benefit-item">
+					<div class="benefit-icon">
+						<i class="fas fa-life-ring"></i>
+					</div>
+					<h3 class="benefit-title font-alt">Development</h3>
+				</div>
+				<!-- End Features Item -->
+			</div>
+			<!-- End Features Grid -->
+		</div>
+	</section>
+	<!-- End Section -->
+	<!-- Section -->
+	<section class="page-section bg-gray-lighter">
+	<!-- Plugins Title -->
+	<section class="wrapper style2">
+		<div class="container">
+			<!-- Google Ads -->
+			<div class="hidden-sm hidden-xs">
+				<div class="nogoogle" style="margin: -30px auto 60px auto">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle" style=" display: inline-block; width: 728px; height: 90px;
+							" data-ad-client="ca-pub-9367855547860784" data-ad-slot="8836320312"></ins>
+					<script>
+						; (adsbygoogle = window.adsbygoogle || []).push({})
+					</script>
+				</div>
+			</div>
+			<header class="major section-text">
+				<h2>Featured Community Plugins</h2>
+				<p>Layouts and extra options for ElvUI</p>
+			</header>
+		</div>
+	</section>
+	<!-- End Plugins Title -->
+	<!-- Plugins -->
+	<section class="wrapper style1">
+		<div class="container">
+			<div class="row">
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/benikui" class="image left"><img src="images/plugins/benik.png"/></a>
+						<div class="inner">
+							<h3>Benik UI</h3>
+							<p>BenikUI is an external ElvUI mod, adding different frame style and new features like detatched portraits, dashboards and many more.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/merathilis-ui" class="image left"><img src="images/plugins/mera.png"/></a>
+						<div class="inner">
+							<h3>Merathilis UI</h3>
+							<p>MerathilisUI is an external ElvUI mod. It adds many useful additions to ElvUI.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/elvui_luckyoneui" class="image left"><img src="images/plugins/lucky.png"/></a>
+						<div class="inner">
+							<h3>Luckyone UI</h3>
+							<p>Minimalistic performance-oriented plugin and layout installer focused on high-end mythic+ and raiding.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/elvui-shadow-light" class="image left"><img src="images/plugins/shadowandlight.png"/></a>
+						<div class="inner">
+							<h3>Shadow & Light</h3>
+							<p>Armory mode style character & inspect frame and tons of custom options for your UI.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/elvui-eltruism" class="image left"><img src="images/plugins/eltruism.webp"/></a>
+						<div class="inner">
+							<h3>Eltruism</h3>
+							<p>ElvUI plugin that offers features not available on ElvUI, and also includes a DPS/Tank Profile along with a Healer profile.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/elvui-windtools" class="image left"><img src="images/plugins/windtools.png"/></a>
+						<div class="inner">
+							<h3>WindTools</h3>
+							<p>Huge amount of custom functions, options and media for your UI.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://www.curseforge.com/wow/addons/addonskins" class="image left"><img src="images/plugins/addonskins.png"/></a>
+						<div class="inner">
+							<h3>AddOnSkins</h3>
+							<p>Template based addon designed to skin other AddOn's into a singular theme.</p>
+						</div>
+					</div>
+				</section>
+				<section class="col-6 col-12-narrower">
+					<div class="box post section-text">
+						<a href="https://github.com/kodewdle/ElvUI_FCT" class="image left"><img src="images/plugins/fct.png"/></a>
+						<div class="inner">
+							<h3>Floating Combat Text</h3>
+							<p>ElvUI_FCT is a plugin that allows the placement of both floating combat text and its feedback/effect messages onto UnitFrames and Nameplates as required and defined by the player.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+	<!-- End Plugins -->
+	</section>
+	<!-- End Section -->
+	<!-- Footer -->
+	<footer class="page-section footer">
+		<div class="container">
+			<!-- Social Links -->
+			<div class="footer-social-links mb-40 mb-xs-60"><a href="https://twitter.com/tukuiofficial" title="Tukui Twitter Profile" target="_blank"><i class="fab fa-twitter"></i></a></div>
+			<!-- End Social Links -->
+			<!-- Footer Text -->
+			<div class="footer-text">
+				<!-- Copyright -->
+				<div class="footer-copy font-alt"><a href="/" target="_blank">&copy; Tukui 2024</a></div>
+				<!-- End Copyright -->
+				<div class="footer-made">Made with love for great people.</div>
+			</div>
+			<!-- End Footer Text -->
+		</div>
+	</footer>
+	<!-- End Foter -->
+	<!-- JS -->
+	<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="/js/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.viewport.mini.js"></script>
+	<script type="text/javascript" src="/js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="/js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="/js/wow.min.js"></script>
+	<script type="text/javascript" src="/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.simple-text-rotator.min.js"></script>
+	<script type="text/javascript" src="/js/all.js"></script>
+	<script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="/js/rev-slider.js"></script>
+	<script type="text/javascript" src="/js/marked.min.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8458d8087fe1399e","version":"2023.10.0","r":1,"token":"9ca733871dd342349c28f60454afac5a","b":1}' crossorigin="anonymous"></script>
+</body>
+
+</html>
